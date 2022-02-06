@@ -14,8 +14,10 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link rel="icon" href="images/logo.png" type="image/icon type">
 
-    <title>Hello, world!</title>    
+    <title>John Berean</title>    
     
     <style>
     body{
@@ -24,10 +26,11 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        height: 100%;
     }
     .navbar{
-        font-size:10px;
         padding-top: 2px;
+        font: 13px Inconsolata, monospace;
     }
     </style>
   </head>
@@ -36,7 +39,7 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
 
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="index.php">
         <img src="images/logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
             <!-- J.M.B. -->
         </a>
@@ -48,19 +51,21 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">HOME</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.php">HOME</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item active">
                     <a class="nav-link" href="#">PORTFOLIO</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">RESUME</a>
+                </li> -->
+                <!-- <li class="nav-item active">
+                    <a class="nav-link" href="about.php">RESUME</a>
+                </li> -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="resume.php">RESUME</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">CONTACT</a>
+                    <a class="nav-link" href="contact.php">CONTACT</a>
                 </li>
-
             </ul>
         </div>
     </nav>

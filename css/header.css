@@ -1,0 +1,13 @@
+body{
+    background: url("../images/csteam.jpg") no-repeat center fixed; 
+    background-size: cover;
+}
+.navbar{
+    font: 13px Inconsolata, monospace;
+    padding-top:0px;
+    padding-right:10px;
+    color: white;
+}
+title{
+    font: Inconsolata, monospace;
+}

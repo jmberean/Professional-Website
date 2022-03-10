@@ -1,0 +1,20 @@
+.c1{
+    font: .6rem Inconsolata, monospace;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+}   
+.terminal{
+    background: black;
+    color: #7AFB4C;
+    font-size:0.6em;
+    border-radius: 25px;
+    max-width:80%;
+}
+div.hideUnderScore{
+    display: none
+}
+
+div.hidden{
+    display: none
+}

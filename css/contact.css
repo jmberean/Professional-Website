@@ -1,0 +1,18 @@
+p{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+}
+.c1{
+    font: .6rem Inconsolata, monospace;
+}
+.c2{
+    padding:25px;
+    font: .6rem Inconsolata, monospace;
+    border-radius: 25px;
+    max-width:80%;
+    background: rgba(255, 255, 255, 0.9); 
+}
+div.hidden{
+    display: none
+}

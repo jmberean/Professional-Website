@@ -1,0 +1,14 @@
+p{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+}
+.c1{
+    font: .6rem Inconsolata, monospace;
+}
+html, body, iframe { 
+    height: 100%; 
+}
+div.hidden{
+    display: none
+}

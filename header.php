@@ -1,47 +1,41 @@
-<?php 
-if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
-    $location = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-    header('HTTP/1.1 301 Moved Permanently');
-    header('Location: ' . $location);
-    exit;
-}
-?>
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
-    <link rel="icon" href="images/logo.png" type="image/icon type">
 
-    <title>John Berean</title>    
-    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="icon" href="images/logo V2.png" type="image/icon type">
+
     <style>
     body{
-        background: url("images/csteam.jpg") no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        height: 100%;
+        background: url("../images/csteam.jpg") no-repeat center fixed !important; 
+        background-size: cover!important;
     }
     .navbar{
-        padding-top: 2px;
-        font: 13px Inconsolata, monospace;
+        font: 13px Inconsolata, monospace!important;
+        padding-top:0px!important;
+        padding-right:10px!important;
+        color: white!important;
+    }
+    title{
+        font: Inconsolata, monospace!important;
     }
     </style>
+
+    <title>John Berean</title>    
+
   </head>
 
   <body>
 
-    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-    <a class="navbar-brand" href="index.php">
-        <img src="images/logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
-            <!-- J.M.B. -->
+
+        <a class="navbar-brand" href="index.php" style = "marging-left: 15px">
+            <img src="images/logo V2.png" width="50" height="50" class="d-inline-block align-top" alt="" style = "marging-left: 15px">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,14 +48,17 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
                 <li class="nav-item active">
                     <a class="nav-link" href="index.php">HOME</a>
                 </li>
-                <!-- <li class="nav-item active">
-                    <a class="nav-link" href="#">PORTFOLIO</a>
-                </li> -->
-                <!-- <li class="nav-item active">
-                    <a class="nav-link" href="about.php">RESUME</a>
-                </li> -->
                 <li class="nav-item active">
                     <a class="nav-link" href="resume.php">RESUME</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link"  href="https://www.linkedin.com/in/jmberean/" target="_blank">LINKED-IN</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://github.com/jmberean" target="_blank">GITHUB</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.php">ABOUT</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="contact.php">CONTACT</a>

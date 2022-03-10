@@ -49,9 +49,6 @@
                     <a class="nav-link" href="index.php">HOME</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="resume.php">RESUME</a>
-                </li>
-                <li class="nav-item active">
                     <a class="nav-link"  href="https://www.linkedin.com/in/jmberean/" target="_blank">LINKED-IN</a>
                 </li>
                 <li class="nav-item active">
@@ -59,9 +56,6 @@
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="about.php">ABOUT</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="contact.php">CONTACT</a>
                 </li>
             </ul>
         </div>
